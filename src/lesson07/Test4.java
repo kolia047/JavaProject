@@ -19,6 +19,7 @@ public class Test4 {
             ints2[i] = ints[ints.length]/2;
 
         }
+        System.out.println();
 //        for (int i = ints.length/2; i < ints.length; i++) {
 //            int iter = 0;
 //            ints2[iter] = ints[i];
@@ -33,5 +34,6 @@ public class Test4 {
             System.out.println(ints2[i]);
         }
     }
+
 
 }
