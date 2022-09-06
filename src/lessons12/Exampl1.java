@@ -15,7 +15,7 @@ public class Exampl1 {
             nums[i] = Integer.parseInt(reader.readLine());
         }
         Arrays.sort(nums);
-        for (int i = (nums.length - 1); i >= nums.length / 2; i--) {
+        for (int i = nums.length - 1; i >= nums.length / 2; i--) {
             System.out.println(nums[i]);
         }
         System.out.println(Arrays.toString(nums));
